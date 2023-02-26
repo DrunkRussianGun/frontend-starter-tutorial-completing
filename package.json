@@ -8,6 +8,7 @@
   },
   "scripts": {
     "build": "webpack",
+    "lint": "eslint .",
     "start": "webpack-dev-server",
     "test": "mocha --require babel-polyfill --compilers js:babel-register tests/*"
   },
